@@ -12,7 +12,7 @@ import com.regis.ThreadPoolTaskScheduler.service.Job2;
 
 @Configuration
 @EnableScheduling
-public class AgendadorConfig implements SchedulingConfigurer {
+public class SchedulerConfig implements SchedulingConfigurer {
 
 	@Override
 	public void configureTasks(ScheduledTaskRegistrar taskRegistrar) {
